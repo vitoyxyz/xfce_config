@@ -7,7 +7,7 @@
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=11;x=2828;y=49"/>
       <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
@@ -31,10 +31,8 @@
         <value type="int" value="33"/>
         <value type="int" value="17"/>
         <value type="int" value="4"/>
-        <value type="int" value="34"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
-        <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="35"/>
         <value type="int" value="12"/>
@@ -83,13 +81,17 @@
         <value type="string" value="discord"/>
         <value type="string" value="electron7"/>
       </property>
+      <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="obs"/>
+      </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance14408;chromium.instance1833;chromium.instance2027;chromium.instance2163;chromium.instance2490;chromium.instance2509;chromium.instance2762;chromium.instance2962;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance546285;chromium.instance5516;chromium.instance567513;firefox.instance10646;firefox.instance1402;firefox.instance1462;firefox.instance385180;firefox.instance545555;firefox.instance892;vlc;vlc.instance8366"/>
+      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance14408;chromium.instance1833;chromium.instance2027;chromium.instance2163;chromium.instance2490;chromium.instance2509;chromium.instance2762;chromium.instance2962;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance546285;chromium.instance5516;chromium.instance567513;firefox.instance10646;firefox.instance1402;firefox.instance1462;firefox.instance37041;firefox.instance385180;firefox.instance545555;firefox.instance892;vlc;vlc.instance8366"/>
     </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
       <property name="mode" type="uint" value="2"/>
@@ -163,7 +165,6 @@
     </property>
     <property name="plugin-32" type="string" value="separator"/>
     <property name="plugin-33" type="string" value="separator"/>
-    <property name="plugin-34" type="string" value="separator"/>
     <property name="plugin-35" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>
