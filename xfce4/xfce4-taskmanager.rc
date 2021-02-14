@@ -1,5 +1,5 @@
 [Settings]
-ShowAllProcesses=FALSE
+ShowAllProcesses=TRUE
 ShowLegend=TRUE
 MorePrecision=FALSE
 FullCommandLine=FALSE
@@ -17,9 +17,9 @@ ColumnVSZ=FALSE
 ColumnRSS=TRUE
 ColumnCPU=TRUE
 ColumnPriority=FALSE
-SortColumn=7
-SortType=0
-WindowWidth=1605
-WindowHeight=766
+SortColumn=5
+SortType=1
+WindowWidth=956
+WindowHeight=1013
 HandlePosition=100
 ProcessTreeView=FALSE

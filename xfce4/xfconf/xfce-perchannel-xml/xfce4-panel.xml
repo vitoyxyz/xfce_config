@@ -12,16 +12,6 @@
       <property name="size" type="uint" value="32"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
-        <value type="int" value="29"/>
-        <value type="int" value="27"/>
-        <value type="int" value="22"/>
-        <value type="int" value="25"/>
-        <value type="int" value="24"/>
-        <value type="int" value="26"/>
-        <value type="int" value="21"/>
-        <value type="int" value="20"/>
-        <value type="int" value="28"/>
-        <value type="int" value="16"/>
         <value type="int" value="30"/>
         <value type="int" value="2"/>
         <value type="int" value="31"/>
@@ -55,7 +45,7 @@
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
       <property name="flat-buttons" type="bool" value="true"/>
-      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="false"/>
       <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
       <property name="show-wireframes" type="bool" value="false"/>
@@ -78,6 +68,8 @@
         <value type="string" value="nextcloud"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="electron10"/>
         <value type="string" value="discord"/>
         <value type="string" value="electron7"/>
       </property>
@@ -90,7 +82,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance14408;chromium.instance1833;chromium.instance2027;chromium.instance2163;chromium.instance2490;chromium.instance2509;chromium.instance2762;chromium.instance2962;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance546285;chromium.instance5516;chromium.instance567513;firefox.instance10646;firefox.instance1402;firefox.instance1462;firefox.instance37041;firefox.instance385180;firefox.instance545555;firefox.instance892;vlc;vlc.instance8366"/>
+      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance14408;chromium.instance1833;chromium.instance2027;chromium.instance2163;chromium.instance2490;chromium.instance2509;chromium.instance2762;chromium.instance2844;chromium.instance2962;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance43472;chromium.instance47132;chromium.instance546285;chromium.instance5516;chromium.instance567513;chromium.instance57663;firefox.instance10646;firefox.instance1402;firefox.instance1462;firefox.instance1817;firefox.instance2558;firefox.instance37041;firefox.instance385180;firefox.instance545555;firefox.instance892;vlc;vlc.instance8366"/>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
@@ -98,54 +90,7 @@
     </property>
     <property name="plugin-7" type="string" value="whiskermenu"/>
     <property name="plugin-17" type="string" value="systemload"/>
-    <property name="plugin-20" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16030206845.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-21" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16030207156.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-22" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16030207197.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-24" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16030207349.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-25" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="160302074810.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-26" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="160302079811.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-27" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="160302118512.desktop"/>
-      </property>
-      <property name="disable-tooltips" type="bool" value="false"/>
-      <property name="show-label" type="bool" value="false"/>
-    </property>
-    <property name="plugin-28" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="160302220313.desktop"/>
-      </property>
-    </property>
     <property name="plugin-4" type="string" value="netload"/>
-    <property name="plugin-16" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16042525141.desktop"/>
-      </property>
-    </property>
     <property name="plugin-18" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-19" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
@@ -154,7 +99,6 @@
       <property name="numbering" type="bool" value="false"/>
     </property>
     <property name="plugin-23" type="string" value="separator"/>
-    <property name="plugin-29" type="string" value="separator"/>
     <property name="plugin-30" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>

@@ -3,6 +3,7 @@
 <channel name="xfce4-notifyd" version="1.0">
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="brave-browser"/>
       <value type="string" value="discord"/>
       <value type="string" value="Electron"/>
       <value type="string" value="FileZilla"/>
@@ -10,6 +11,7 @@
       <value type="string" value="notify-send"/>
       <value type="string" value="org.gnome.Nautilus"/>
       <value type="string" value="signal"/>
+      <value type="string" value="Transmission"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="Xfce4-notifyd settings"/>
       <value type="string" value="xfce4-settings-helper"/>

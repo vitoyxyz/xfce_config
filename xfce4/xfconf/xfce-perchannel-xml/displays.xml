@@ -75,4 +75,40 @@
     </property>
   </property>
   <property name="IdentityPopups" type="bool" value="false"/>
+  <property name="cebe49a781bbed87954959aa78c960779adb8ea8" type="string" value="2monitors">
+    <property name="HDMI-A-0" type="string" value="Samsung Electric Company 7&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="44b78a79076e5bf9a9ed194542274d0f064e5c12"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DVI-D-0" type="string" value="AUS 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="f11266975b38e6a2c2607092fcc3faa9f3ccbc8f"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
 </channel>
