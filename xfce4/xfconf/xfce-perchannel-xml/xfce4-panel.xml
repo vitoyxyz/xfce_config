@@ -5,7 +5,7 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=11;x=2828;y=49"/>
+      <property name="position" type="string" value="p=6;x=2880;y=16"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
@@ -16,17 +16,18 @@
         <value type="int" value="2"/>
         <value type="int" value="31"/>
         <value type="int" value="19"/>
-        <value type="int" value="32"/>
+        <value type="int" value="5"/>
+        <value type="int" value="1"/>
+        <value type="int" value="23"/>
         <value type="int" value="18"/>
-        <value type="int" value="33"/>
         <value type="int" value="17"/>
-        <value type="int" value="4"/>
+        <value type="int" value="3"/>
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="35"/>
         <value type="int" value="12"/>
-        <value type="int" value="23"/>
+        <value type="int" value="4"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="mode" type="uint" value="0"/>
@@ -74,6 +75,8 @@
         <value type="string" value="electron7"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="corectrl"/>
+        <value type="string" value="openrgb"/>
         <value type="string" value="vlc"/>
         <value type="string" value="steam"/>
         <value type="string" value="obs"/>
@@ -82,15 +85,29 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance14408;chromium.instance1833;chromium.instance2027;chromium.instance2163;chromium.instance2490;chromium.instance2509;chromium.instance2762;chromium.instance2844;chromium.instance2962;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance43472;chromium.instance47132;chromium.instance546285;chromium.instance5516;chromium.instance567513;chromium.instance57663;firefox.instance10646;firefox.instance1402;firefox.instance1462;firefox.instance1817;firefox.instance2558;firefox.instance37041;firefox.instance385180;firefox.instance545555;firefox.instance892;vlc;vlc.instance8366"/>
+      <property name="mpris-players" type="string" value="chromium.instance111230;chromium.instance11139;chromium.instance1129;chromium.instance141433;chromium.instance14408;chromium.instance14678;chromium.instance150292;chromium.instance1542;chromium.instance16934;chromium.instance1703;chromium.instance17616;chromium.instance1801;chromium.instance1833;chromium.instance191073;chromium.instance1961;chromium.instance2001;chromium.instance2027;chromium.instance202954;chromium.instance2047;chromium.instance2163;chromium.instance219509;chromium.instance2490;chromium.instance2509;chromium.instance2547;chromium.instance2630;chromium.instance2663;chromium.instance2750;chromium.instance2762;chromium.instance2844;chromium.instance2869;chromium.instance2914;chromium.instance2962;chromium.instance2969;chromium.instance2973;chromium.instance3046;chromium.instance3049;chromium.instance3059;chromium.instance3196;chromium.instance3215;chromium.instance3236;chromium.instance3259;chromium.instance3278;chromium.instance3282;chromium.instance3289;chromium.instance3421;chromium.instance3623;chromium.instance399307;chromium.instance4020;chromium.instance411196;chromium.instance4216;chromium.instance4262;chromium.instance43472;chromium.instance45173;chromium.instance466797;chromium.instance4698;chromium.instance47132;chromium.instance4716;chromium.instance489424;chromium.instance546285;chromium.instance5516;chromium.instance567513;chromium.instance5762;chromium.instance57663;chromium.instance5976;chromium.instance6289;chromium.instance647067;chromium.instance678709;chromium.instance6829;chromium.instance71437;chromium.instance716704;chromium.instance8256;chromium.instance87654;chromium.instance9952;firefox.instance10646;firefox.instance1083;firefox.instance1086;firefox.instance1102;firefox.instance1129;firefox.instance1138;firefox.instance118785;firefox.instance1221;firefox.instance1353;firefox.instance1402;firefox.instance1462;firefox.instance1817;firefox.instance2156;firefox.instance2536;firefox.instance2558;firefox.instance27134;firefox.instance37041;firefox.instance385180;firefox.instance545555;firefox.instance6473;firefox.instance892;firefox.instance922;firefox.instance929;firefox.instance932;firefox.instance936;firefox.instance958;firefox.instance960;firefox.instance964;firefox.instance982;firefox.instance99645;vlc;vlc.instance184138;vlc.instance8366"/>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
       <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu"/>
-    <property name="plugin-17" type="string" value="systemload"/>
-    <property name="plugin-4" type="string" value="netload"/>
+    <property name="plugin-17" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.273490"/>
+          <value type="double" value="0.750000"/>
+          <value type="double" value="0.250000"/>
+          <value type="double" value="1.000000"/>
+        </property>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+    </property>
     <property name="plugin-18" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-19" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
@@ -107,11 +124,13 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-32" type="string" value="separator"/>
-    <property name="plugin-33" type="string" value="separator"/>
     <property name="plugin-35" type="string" value="separator">
       <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-1" type="string" value="cpufreq"/>
+    <property name="plugin-3" type="string" value="netload"/>
+    <property name="plugin-4" type="string" value="separator"/>
+    <property name="plugin-5" type="string" value="separator"/>
   </property>
 </channel>
